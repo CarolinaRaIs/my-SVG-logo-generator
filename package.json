@@ -1,0 +1,27 @@
+{
+  "name": "my-svg-logo-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool that generates customizable SVG images based on user input and saves them as .svg files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolinaRaIs/my-SVG-logo-generator.git"
+  },
+  "keywords": [
+    "SVG",
+    "logo",
+    "generator",
+    "command",
+    "line",
+    "node.js"
+  ],
+  "author": "CarolinaRaIs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarolinaRaIs/my-SVG-logo-generator/issues"
+  },
+  "homepage": "https://github.com/CarolinaRaIs/my-SVG-logo-generator#readme"
+}
