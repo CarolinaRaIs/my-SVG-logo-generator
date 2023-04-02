@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/CarolinaRaIs/my-SVG-logo-generator/issues"
   },
-  "homepage": "https://github.com/CarolinaRaIs/my-SVG-logo-generator#readme"
+  "homepage": "https://github.com/CarolinaRaIs/my-SVG-logo-generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^9.1.5",
+    "svg-captcha": "^1.4.0"
+  }
 }
