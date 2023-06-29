@@ -4,9 +4,9 @@
 
 ## [Description:](#description)
 
-      The SVG Logo Generator is a command-line application that allows users to generate custom logos using Scalable Vector Graphics (SVG). The application provides a user-friendly interface where users can specify the shape, color, and text for their logo. With just a few clicks, users can create professional-looking logos for various purposes.
+The SVG Logo Generator is a command-line application that allows users to generate custom logos using Scalable Vector Graphics (SVG). The application provides a user-friendly interface where users can specify the shape, color, and text for their logo. With just a few clicks, users can create professional-looking logos for various purposes.
 
-    The application utilizes the following technologies and frameworks so that the application can deliver a seamless logo generation experience:
+The application utilizes the following technologies and frameworks so that the application can deliver a seamless logo generation experience:
 
     JavaScript: The application is built using JavaScript, the programming language of the web, which enables dynamic and interactive features.
 
@@ -35,56 +35,55 @@
    
 ## [Installation:](#installation:)
 
-    Before you continue, ensure you have met the following requirements:
+Before you continue, ensure you have met the following requirements:
 
-    *You have installed Node.js which includes npm (Node Package Manager). If they're not, you can download and install Node.js (which includes npm) from the official website: https://nodejs.org/.
+* You have installed Node.js which includes npm (Node Package Manager). If they're not, you can download and install Node.js (which includes npm) from the official website: https://nodejs.org/.
 
-    Once those are installed:
+Once those are installed:
 
-    *Clone the repository or download the code to your local machine.
-    *Navigate to the directory that contains the package.json file.
-    *Install the nnecessary dependencies:
-
-        To install the necessary dependencies, run the following command:
+1. Clone the repository or download the code to your local machine.
+2. Open your terminal and navigate to the directory that contains the package.json file of the project.
+3. Install the necessary dependencies by running the following command:
         
         npm install
     
-        This command should be run in the directory that contains your package.json file, and it will install all the dependencies listed in that file.
+        This command should be run in the directory that contains the package.json file, and it will install all the dependencies listed in that file.
+    
+After running the npm install command, you should have all the necessary dependencies installed and ready to use for running the SVG Logo Generator project.
     
 ## [Usage:](#usage:)
 
-    To use the prog-web-app-text-editor you can directly go to the Heroku link without having to do anything else. 
+To generate and save an SVG logo using the SVG Logo Generator, follow these steps:
 
-Site on Heroku showing downloadable abilities:
-![plot](./Assets/PWA-heroku-install.png)
+1. Make sure you have installed all the necessary dependencies as described in the Installation section.
+2. Open your terminal and navigate to the project directory.
+3. Run the following command to generate and save the logo:
 
-The application's manifest.json file:
-![plot](./Assets/PWA-install-manifest.png)
+        node index.js
 
-The applications's service worker:
-![plot](./Assets/PWA-app-registered-service-worker.png)
+        This command will execute the index.js file, which is responsible for generating and saving the logo.
 
-The applications IndexedDB:
-![plot](./Assets/PWA-app-IndexedDB.png)
+4. Follow the prompts in the command-line interface to provide input for the logo generation. You will be asked to choose the shape type, shape color, text content, text color, and any custom color options.
+5. After providing all the necessary input, the logo will be generated and saved as logo.svg in the project directory.
+6. You can now find the generated logo file (logo.svg) in the project directory. Feel free to open it in a web browser or use it in your desired applications.
 
-    Heroku Link:
-    https://prog-web-app-text-editor.herokuapp.com/ 
+
+Example of generated circle SVG using the SVG Logo Generator:
+![plot](./assets/SVG-circle-example.png)
+
+Example of generated triangle SVG using the SVG Logo Generator:
+![plot](./assets/SVG-triangle-example.png)
+
+Example of generated square SVG using the SVG Logo Generator:
+![plot](./assets/SVG-square-example.png)
+
 
     To access the Github Repository visit:
-    https://github.com/CarolinaRaIs/prog-web-app-text-editor
+    https://github.com/CarolinaRaIs/my-SVG-logo-generator
 
     To access the deployed site visit:
     https://carolinarais.github.io/prog-web-app-text-editor/   
 
-    
-    WHEN I run `npm run start` from the root directory
-    THEN I find that my application should start up the backend and serve the client
-    WHEN I run the text editor application from my terminal
-    THEN I find that my JavaScript files have been bundled using webpack
-    WHEN I run my webpack plugins
-    THEN I find that I have a generated HTML file, service worker, and a manifest file
-
-![plot](./Assets/PWA-npm-start.png)
 
 ## [License:](#license:)
 
@@ -93,8 +92,6 @@ The applications IndexedDB:
 ## [Contributing:](#contributing:)
 
        Contributions are welcome and encouraged for this project. If you find any issues or have any suggestions for new features, please open an issue or submit a pull request. Before submitting a pull request, please ensure that your code adheres to the project's coding guidelines and has appropriate test coverage. Thank you for your interest in contributing to this project!  
-
-       Thank you [stellalph](https://github.com/stellalph) for sharing your knowledge to help in the completion of this project!
    
 ## [Tests:](#tests:)
 
