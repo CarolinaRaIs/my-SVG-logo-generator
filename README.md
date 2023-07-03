@@ -68,6 +68,10 @@ To generate and save an SVG logo using the SVG Logo Generator, follow these step
 6. You can now find the generated logo file (logo.svg) in the project directory. Feel free to open it in a web browser or use it in your desired applications.
 
 
+*[Video Walk-through: Testing App](https://drive.google.com/file/d/1IXSDfYVQcPBaMs4MhgXKBOn7WaBaXWvd/view)
+If you are having issues viewing the walk-through video, download it then view it.*
+
+
 Example of generated circle SVG using the SVG Logo Generator:
 ![plot](./assets/SVG-circle-example.png)
 
