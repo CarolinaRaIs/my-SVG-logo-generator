@@ -86,7 +86,7 @@ Example of generated square SVG using the SVG Logo Generator:
     https://github.com/CarolinaRaIs/my-SVG-logo-generator
 
     To access the deployed site visit:
-    https://carolinarais.github.io/prog-web-app-text-editor/   
+    https://carolinarais.github.io/my-SVG-logo-generator/   
 
 
 ## [License:](#license:)
